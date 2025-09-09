@@ -119,6 +119,7 @@ function animateSkillItems() {
   });
 }
 
+
 // Hero animations & floating particles (inject once)
 function setupAnimations() {
   setTimeout(() => {
@@ -272,4 +273,6 @@ function setupSmoothScrolling() {
       window.scrollTo({ top: y, behavior: 'smooth' });
     });
   });
+  
 }
+
